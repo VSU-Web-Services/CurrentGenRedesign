@@ -1,0 +1,37 @@
+.col1 {
+	background-image: url(../imgs/cover1.jpg);
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	background-position: center;
+}
+.col2 {
+	background-image: url(../imgs/39481617724_23615088f9_k.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.col3 {
+	background-image: url(../imgs/34005725564_51a99c5766_k.jpg);
+	background-size: cover;
+	background-position: center top;
+}
+.col4 {
+	background-image: url(../imgs/34005725564_51a99c5766_k.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.col5 {
+	background-image: url(../imgs/44471125981_0ef7385f1d_k.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.col6 {
+	background-image: url(../imgs/1st_place_71.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.col7 {
+	background-image: url(../imgs/27930568199_ee2ca5d2d8_k.jpg);
+	background-size: cover;
+	background-position: center;
+}

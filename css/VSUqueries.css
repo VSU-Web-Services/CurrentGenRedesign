@@ -1,0 +1,273 @@
+
+@media only screen and (max-width: 576px) {
+#footer {
+	height: 20vh!important;
+}
+.fix{top:15vh; height:70vh;}
+.fc-center h2 {
+	font-size: 2em!important;
+	margin-top: 10px!important;
+}
+.fc button {
+	padding: 4px!important;
+}
+#myVideo {
+	display: none;
+}
+.nav-overlay {
+	opacity: 1;
+}
+.nav-parent {
+    height: 65vh;
+    top: 8vh;
+}
+#button-next {
+	display: none;
+}
+.main {
+	top: 5%;
+}
+#header-info {
+	background-color: #002256;
+	position: fixed;
+	width: 100vw;
+	/* height: 25vh; */
+	z-index: 5!important;/* top: 17vh!important; */
+}
+#button-prev {
+	display: none;
+}
+#footer-info {
+	bottom: 20vh !important;
+	height: 67vh;
+	margin-bottom: 0!important;
+}
+.section-marker {
+/* top: -1.5vh; */
+}
+.section-marker h1 {
+	padding-top: 15px;
+	/* height: 45px; */
+    /* vertical-align: middle; */
+	font-size: 1.2em!important;
+}
+#chat-circle {
+	width: 50px;
+	height: 50px;
+}
+.fa-question-circle {
+	right: 12px!important;
+	bottom: 13px!important;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media (min-width : 720px) and (max-width: 1080px) {
+/* STYLES GO HERE */
+.fix{
+	top: 17vh;
+	height: 72vh;
+}
+	.main{
+		/* top:12vh; */
+	}
+#myVideo {
+	display: none;
+}
+.nav-overlay {
+    opacity: .7;
+}
+.nav-parent{
+	height: 74vh;
+	top:5vh;
+}
+.state_name {
+	display: none!important;
+}
+.menu-tab {
+	top: 1vh!important;
+}
+.menu-tab.active {
+	left: 0vw!important;
+}
+.menu-hide {
+/* width:100vw; */
+		/* left:-421px; */
+}
+.menu-hide.show {
+	/*background-color: rgba(12, 92, 171, 1);*/
+	width: 50vw;
+}
+.ctan {
+	margin: 5px;
+}
+.menu-tab.active {
+	left: 2vw!important;
+}
+#footer-info {
+	height: 25vh;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width :720px) {
+/* STYLES GO HERE */
+.fix{    top: 16vh;
+    height: 63vh;
+	}
+	.nav-overlay {
+    opacity: 1;
+}
+	.nav-parent {
+    height: 65vh;
+    top: 8vh;
+}
+#footer-info {
+	height: fit-content;
+}
+.cta {
+	display: none!important;
+}
+.state_name {
+	display: none!important;
+}
+.menu-tab {
+	top: 1vh!important;
+}
+.menu-hide.show {
+	width: 100vw!important;
+	/*background-color: rgba(12, 92, 171, 1);*/
+	border-right: none;
+	top: -3vh;
+}
+.menu-tab.active {
+	left: 10vw!important;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1080px) {
+/* STYLES GO HERE */
+.fix{top:15vh; height:70vh;}
+	.main {
+	position: relative;
+	top: 20%;
+}
+.nav-overlay {
+    opacity: .7;
+}
+	.nav-parent{
+	height: 79vh;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+#footer-info {
+	height: 25vh;
+}
+.menu-hide.show {
+	width: 25vw;
+}
+.ctan {
+	display: none!important;
+}
+.logo {
+	float: left!important;
+}
+.menu-tab {
+	top: 1vh!important;
+}
+.menu-tab.active {
+	left: 2vw;
+}
+}
+@media only screen and (min-width : 1680px) {
+	#myVideo{
+		width: 100%!important;
+	}
+	.nav-overlay {
+    opacity: .7;
+}
+	.main {
+	top: 20%;
+}
+	.fix{top: 13vh;height: 75vh;}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	.fix{top:15vh; height:70vh;}
+#button-next {
+	display: none;
+}
+.main {
+	top: 5%;
+}
+#button-prev {
+	display: none;
+}
+	.nav-overlay {
+    opacity: 1;
+}
+/* STYLES GO HERE */
+#mqtestingdiv {
+	z-index: 2;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	display: none;
+}
+#footer-info {
+	height: 67vh;
+}
+.ctan {
+	display: block!important;
+}
+.cta {
+	display: none!important;
+}
+.menu-hide.show {
+	padding-top: 2vh!important;
+	width: 100vw!important;
+	font-size: 1.8em!important;
+}
+.menu-tab {
+	top: 1vh!important;
+}
+.homeMobile {
+	text-align: center;
+	width: 89%;
+	height: 76%;
+	position: relative;
+	background-color: antiquewhite;
+}
+.nav-parent {
+    height: 65vh;
+    top: 8vh;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.chat-logs {
+	height: 40vh;
+}
+
+#footer-info {
+	height: fit-content;
+}
+	.nav-overlay {
+    opacity: 1;
+}
+	.nav-parent {
+    height: 65vh;
+    top: 8vh;
+}
+	.main {
+	top: 5%;
+}		
+	.fix{top:17vh; height:62vh;}
+
+}
+@media only screen and (min-width: 500px) and (max-width:680) {
+	.fix{
+	/* top: 17vh; */
+	/* height: 62vh; */
+	}
+	}
